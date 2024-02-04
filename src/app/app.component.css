@@ -1,0 +1,22 @@
+[appClickCounter] {
+    padding: 10px;
+    background-color: #2e00e6;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  button {
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #19c742;
+  }
+  
