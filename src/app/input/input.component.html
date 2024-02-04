@@ -1,0 +1,6 @@
+<div>
+  <label for="myInput">Enter Text</label>
+  <input type="text" id="text" placeholder="String with 2+ char" #text (input)="updateInputText(text.value)">
+  <br>
+  First 2 Characters: {{ inputText | characterPipe }}
+</div>
